@@ -1,4 +1,4 @@
-# Esse script entra no site do DIEESE extrae a base de valor médio da cesta básica por cidade capital, trata a tabela criando uma coluna de data, cidades e faz um proc para obter a região e uf pretencente a cidade capital com um período de um ano em relação ao mês atual.
+# Esse script entra no site do DIEESE extrai a base de valor médio da cesta básica por cidade capital, trata a tabela criando uma coluna de data, cidades e faz um proc para obter a região e uf pertencente a cidade capital com um período de um ano em relação ao mês atual.
 
 import pandas as pd
 import os
