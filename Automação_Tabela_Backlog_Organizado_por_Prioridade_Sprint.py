@@ -80,9 +80,9 @@ def proximas_sextas(numero_sextas):
 # Ordenando os dados e agrupando
 df = tab_auxiliar_pendente.sort_values(by='esforço_dias', ascending=True)
 
-# Priorizar casos de 'mensuração' e 'deu merda prod'
+# Priorizar casos de 'mensuração' e 'problema em prod'
 df['prioridade'] = np.where(
-    df['grupo'].isin(['mensuração', 'merda em prod']), 
+    df['grupo'].isin(['mensuração', 'problema em prod']), 
     1, 
     0
 )
